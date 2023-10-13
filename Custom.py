@@ -1529,12 +1529,3 @@ def fcrack(uid,pwx,tl):
     except:
         pass
         
-def SUBSCRIPTION():
-  os.system('clear')
-  print(logo)
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-
-    sys.exit()
-
-rehan()
